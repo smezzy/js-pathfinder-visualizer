@@ -13,12 +13,12 @@ body {
 
 h1 {
     text-align: center;
-    padding: 8px 0px;
+    padding: 12px 0px;
     font-weight: bold;
     width: 100%;
     font-size: 26px;
     margin-bottom: 20px;
-    border-bottom: 2px solid #DADEE0;
+    border-bottom: 3px solid #DADEE0;
     background-color: #fff;
 }
 .grid {
@@ -27,7 +27,7 @@ h1 {
     margin: 0 auto;
     background-color: white;
     border-radius: 12px;
-    border: 12px solid #EBEBEB;
+    border: 6px solid #EBEBEB;
 }
 
 .node {
@@ -43,7 +43,7 @@ h1 {
 .selected {
     border-radius: 4px;
     box-sizing: border-box;
-    background-color: #EBEBEB;
+    background-color: #444444;
 
 
 }
@@ -54,23 +54,32 @@ h1 {
 
 }
 
-.closed {
-    background-color: #fff;
-
-}
 .goal {
     border-radius: 4px;
     background-color: #15A6F0;
+}
+
+.closed {
+    border-radius: 4px;
+    background-color: #fabebe;
+    border: 2px solid #fabebe;
+    box-sizing: border-box;
+    transform: scale(.9);
 
 }
 .open {
-    background-color: #fff;
+    border-radius: 4px;
+    background-color: #c5fabe;
+    border: 2px solid #c5fabe;
+    box-sizing: border-box;
+    transform: scale(.9);
 }
 .path {
     border-radius: 4px;
-    background-color: white;
-    border: 3px solid #BEE2FA;
+    background-color: #2a9eeb;
+    border: 3px solid #2a9eeb;
     box-sizing: border-box;
+    transform: scale(.9);
 }
 
 .buttons {

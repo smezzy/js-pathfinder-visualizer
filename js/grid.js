@@ -64,7 +64,14 @@ let Grid = (function() {
 
     const selectNodeByPosition = (x, y, type) => {
         let node = document.getElementById(x + '-' + y);
+
+        if (type != 'goal' && type != 'start') {
+            if(node.classList.contains('goal') || node.classList.contains('start')) return;
+            selectNode(node, type);
+        }
+        
         selectNode(node, type);
+
     }
 
     const getNodeByPosition = (x, y) => {
@@ -95,7 +102,7 @@ let Grid = (function() {
                 _node.node.classList = 'node ' + _node.type;
                 index++;
                 arguments.callee(index);
-            }, 75);
+            }, 35);
         })(index);
     }
 

@@ -21,6 +21,9 @@ let Astar = (function() {
         let startNode = Grid.getNodeByPosition(start.x, start.y);
         let _node = new Node(startNode, new Vec3(start.x, start.y), 0, 0, this);
         pathfind(_node);
+        setTimeout(() => {
+            Grid.displayPath();
+        }, 150);
     }
 
     function getNeighbors(_position) {
