@@ -1,4 +1,4 @@
 # pathfinder-visualizer
-just a pathfinder visualizer made for learning purposes 
+Pathfinder visualizer made in VanillaJs
 
 preview: https://smezzy.github.io/pathfinder-visualizer/
