@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu';
+}
+
+body {
+    background-color: #fff;
+    color: #333333;
+}
+
+h1 {
+    text-align: center;
+    padding: 8px 0px;
+    font-weight: bold;
+    width: 100%;
+    font-size: 26px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #DADEE0;
+    background-color: #fff;
+}
+.grid {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 12px;
+    border: 12px solid #EBEBEB;
+}
+
+.node {
+    position: absolute;
+    border-radius: 0px;
+    
+}
+
+.empty {
+    background-color: #FFF;
+}
+
+.selected {
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #EBEBEB;
+
+
+}
+
+.start {
+    border-radius: 4px;
+    background-color: #5E43A2;
+
+}
+
+.closed {
+    background-color: #fff;
+
+}
+.goal {
+    border-radius: 4px;
+    background-color: #15A6F0;
+
+}
+.open {
+    background-color: #fff;
+}
+.path {
+    border-radius: 4px;
+    background-color: white;
+    border: 3px solid #BEE2FA;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 1000px;
+    justify-content: center;
+}
+
+.buttons button {
+    margin: 0 auto;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 12px;
+
+    outline: 0;
+    border: none;
+    background-color: #EBEBEB;
+}
+.buttons button:hover {
+    background-color: #e2e2e2;
+}
+.buttons button:active {
+    background-color: #cacaca;
+}
