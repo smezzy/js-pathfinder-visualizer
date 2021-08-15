@@ -39,8 +39,6 @@ let Astar = (function() {
         }
     }
 
-    let index = 0;
-
     function pathfind(origin) {
         let neighbors = getNeighbors(origin.position);
         let parent = origin;
