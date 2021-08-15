@@ -1,5 +1,4 @@
 function Node(node, position, g, h, parent) {
-    let open;
     this.position = position;
     this.node = node;
     this.g = g;
